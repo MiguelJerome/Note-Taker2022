@@ -23,7 +23,7 @@ Note Taker
 
 ## Contribution Guidelines
 * This is a final product, that is ready to be use.
-* [Note Taker Page Ressources](https://github.com/MiguelJerome/note-taker)
+* [Note Taker Page Ressources](https://github.com/MiguelJerome/Note-Taker2022)
 
 ## Test Instructions
 * This Note Taker works and is ready to be use.
