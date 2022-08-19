@@ -58,9 +58,11 @@ router.delete('/notes/:id', (req, res) => {
       res.status(400).send('The notes is not properly formatted.');
     } else {
       console.log("I'm deleting a new note in notesRoutes.js");
+    
       const note = deleteNotes(req.body, notes);
       res.json(note);
     }
+    
   });
 
 module.exports = router;
