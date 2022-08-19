@@ -53,10 +53,11 @@ router.delete('/notes/:id', (req, res) => {
     const index = notes.indexOf(note);
     notes.splice(index,1);
     
-    console.log("I'm deleting a new note in notesRoutes.js");
+    
     if (!note) {
       res.status(400).send('The notes is not properly formatted.');
     } else {
+      console.log("I'm deleting a new note in notesRoutes.js");
       const note = deleteNotes(req.body, notes);
       res.json(note);
     }
